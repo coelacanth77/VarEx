@@ -28,9 +28,7 @@
     sum = num0 + num1;
     
     NSString* text = [NSString stringWithFormat:@"合計=%d", sum];
-    [[UIColor blackColor] set];
-    UIFont* font =  [UIFont systemFontOfSize:24];
-    [text drawAtPoint:CGPointMake(0, 0) withFont:font];
+    self.label.text = text;
 }
 
 - (void)didReceiveMemoryWarning

@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface macViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 @end
