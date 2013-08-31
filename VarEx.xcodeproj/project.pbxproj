@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13558D0417D22AA5002D08E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13558D0317D22AA5002D08E0 /* UIKit.framework */; };
+		13558D0617D22AA5002D08E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13558D0517D22AA5002D08E0 /* Foundation.framework */; };
+		13558D0817D22AA5002D08E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13558D0717D22AA5002D08E0 /* CoreGraphics.framework */; };
+		13558D0E17D22AA5002D08E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13558D0C17D22AA5002D08E0 /* InfoPlist.strings */; };
+		13558D1017D22AA5002D08E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13558D0F17D22AA5002D08E0 /* main.m */; };
+		13558D1417D22AA5002D08E0 /* macAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13558D1317D22AA5002D08E0 /* macAppDelegate.m */; };
+		13558D1617D22AA5002D08E0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 13558D1517D22AA5002D08E0 /* Default.png */; };
+		13558D1817D22AA5002D08E0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13558D1717D22AA5002D08E0 /* Default@2x.png */; };
+		13558D1A17D22AA5002D08E0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13558D1917D22AA5002D08E0 /* Default-568h@2x.png */; };
+		13558D1D17D22AA5002D08E0 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13558D1B17D22AA5002D08E0 /* MainStoryboard_iPhone.storyboard */; };
+		13558D2017D22AA5002D08E0 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13558D1E17D22AA5002D08E0 /* MainStoryboard_iPad.storyboard */; };
+		13558D2317D22AA5002D08E0 /* macViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13558D2217D22AA5002D08E0 /* macViewController.m */; };
+		13558D2B17D22AA6002D08E0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13558D2A17D22AA6002D08E0 /* SenTestingKit.framework */; };
+		13558D2C17D22AA6002D08E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13558D0317D22AA5002D08E0 /* UIKit.framework */; };
+		13558D2D17D22AA6002D08E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13558D0517D22AA5002D08E0 /* Foundation.framework */; };
+		13558D3517D22AA6002D08E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13558D3317D22AA6002D08E0 /* InfoPlist.strings */; };
+		13558D3817D22AA6002D08E0 /* VarExTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13558D3717D22AA6002D08E0 /* VarExTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13558D2E17D22AA6002D08E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13558CF817D22AA5002D08E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13558CFF17D22AA5002D08E0;
+			remoteInfo = VarEx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13558D0017D22AA5002D08E0 /* VarEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VarEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13558D0317D22AA5002D08E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		13558D0517D22AA5002D08E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		13558D0717D22AA5002D08E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		13558D0B17D22AA5002D08E0 /* VarEx-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VarEx-Info.plist"; sourceTree = "<group>"; };
+		13558D0D17D22AA5002D08E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13558D0F17D22AA5002D08E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13558D1117D22AA5002D08E0 /* VarEx-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VarEx-Prefix.pch"; sourceTree = "<group>"; };
+		13558D1217D22AA5002D08E0 /* macAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macAppDelegate.h; sourceTree = "<group>"; };
+		13558D1317D22AA5002D08E0 /* macAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = macAppDelegate.m; sourceTree = "<group>"; };
+		13558D1517D22AA5002D08E0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		13558D1717D22AA5002D08E0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		13558D1917D22AA5002D08E0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		13558D1C17D22AA5002D08E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		13558D1F17D22AA5002D08E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		13558D2117D22AA5002D08E0 /* macViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macViewController.h; sourceTree = "<group>"; };
+		13558D2217D22AA5002D08E0 /* macViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = macViewController.m; sourceTree = "<group>"; };
+		13558D2917D22AA6002D08E0 /* VarExTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VarExTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13558D2A17D22AA6002D08E0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		13558D3217D22AA6002D08E0 /* VarExTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VarExTests-Info.plist"; sourceTree = "<group>"; };
+		13558D3417D22AA6002D08E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13558D3617D22AA6002D08E0 /* VarExTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VarExTests.h; sourceTree = "<group>"; };
+		13558D3717D22AA6002D08E0 /* VarExTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VarExTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13558CFD17D22AA5002D08E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13558D0417D22AA5002D08E0 /* UIKit.framework in Frameworks */,
+				13558D0617D22AA5002D08E0 /* Foundation.framework in Frameworks */,
+				13558D0817D22AA5002D08E0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13558D2517D22AA6002D08E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13558D2B17D22AA6002D08E0 /* SenTestingKit.framework in Frameworks */,
+				13558D2C17D22AA6002D08E0 /* UIKit.framework in Frameworks */,
+				13558D2D17D22AA6002D08E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13558CF717D22AA5002D08E0 = {
+			isa = PBXGroup;
+			children = (
+				13558D0917D22AA5002D08E0 /* VarEx */,
+				13558D3017D22AA6002D08E0 /* VarExTests */,
+				13558D0217D22AA5002D08E0 /* Frameworks */,
+				13558D0117D22AA5002D08E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13558D0117D22AA5002D08E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13558D0017D22AA5002D08E0 /* VarEx.app */,
+				13558D2917D22AA6002D08E0 /* VarExTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13558D0217D22AA5002D08E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13558D0317D22AA5002D08E0 /* UIKit.framework */,
+				13558D0517D22AA5002D08E0 /* Foundation.framework */,
+				13558D0717D22AA5002D08E0 /* CoreGraphics.framework */,
+				13558D2A17D22AA6002D08E0 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13558D0917D22AA5002D08E0 /* VarEx */ = {
+			isa = PBXGroup;
+			children = (
+				13558D1217D22AA5002D08E0 /* macAppDelegate.h */,
+				13558D1317D22AA5002D08E0 /* macAppDelegate.m */,
+				13558D1B17D22AA5002D08E0 /* MainStoryboard_iPhone.storyboard */,
+				13558D1E17D22AA5002D08E0 /* MainStoryboard_iPad.storyboard */,
+				13558D2117D22AA5002D08E0 /* macViewController.h */,
+				13558D2217D22AA5002D08E0 /* macViewController.m */,
+				13558D0A17D22AA5002D08E0 /* Supporting Files */,
+			);
+			path = VarEx;
+			sourceTree = "<group>";
+		};
+		13558D0A17D22AA5002D08E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13558D0B17D22AA5002D08E0 /* VarEx-Info.plist */,
+				13558D0C17D22AA5002D08E0 /* InfoPlist.strings */,
+				13558D0F17D22AA5002D08E0 /* main.m */,
+				13558D1117D22AA5002D08E0 /* VarEx-Prefix.pch */,
+				13558D1517D22AA5002D08E0 /* Default.png */,
+				13558D1717D22AA5002D08E0 /* Default@2x.png */,
+				13558D1917D22AA5002D08E0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13558D3017D22AA6002D08E0 /* VarExTests */ = {
+			isa = PBXGroup;
+			children = (
+				13558D3617D22AA6002D08E0 /* VarExTests.h */,
+				13558D3717D22AA6002D08E0 /* VarExTests.m */,
+				13558D3117D22AA6002D08E0 /* Supporting Files */,
+			);
+			path = VarExTests;
+			sourceTree = "<group>";
+		};
+		13558D3117D22AA6002D08E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13558D3217D22AA6002D08E0 /* VarExTests-Info.plist */,
+				13558D3317D22AA6002D08E0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13558CFF17D22AA5002D08E0 /* VarEx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13558D3B17D22AA6002D08E0 /* Build configuration list for PBXNativeTarget "VarEx" */;
+			buildPhases = (
+				13558CFC17D22AA5002D08E0 /* Sources */,
+				13558CFD17D22AA5002D08E0 /* Frameworks */,
+				13558CFE17D22AA5002D08E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VarEx;
+			productName = VarEx;
+			productReference = 13558D0017D22AA5002D08E0 /* VarEx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13558D2817D22AA6002D08E0 /* VarExTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13558D3E17D22AA6002D08E0 /* Build configuration list for PBXNativeTarget "VarExTests" */;
+			buildPhases = (
+				13558D2417D22AA6002D08E0 /* Sources */,
+				13558D2517D22AA6002D08E0 /* Frameworks */,
+				13558D2617D22AA6002D08E0 /* Resources */,
+				13558D2717D22AA6002D08E0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13558D2F17D22AA6002D08E0 /* PBXTargetDependency */,
+			);
+			name = VarExTests;
+			productName = VarExTests;
+			productReference = 13558D2917D22AA6002D08E0 /* VarExTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13558CF817D22AA5002D08E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = mac;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Nishimura Makoto";
+			};
+			buildConfigurationList = 13558CFB17D22AA5002D08E0 /* Build configuration list for PBXProject "VarEx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 13558CF717D22AA5002D08E0;
+			productRefGroup = 13558D0117D22AA5002D08E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13558CFF17D22AA5002D08E0 /* VarEx */,
+				13558D2817D22AA6002D08E0 /* VarExTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13558CFE17D22AA5002D08E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13558D0E17D22AA5002D08E0 /* InfoPlist.strings in Resources */,
+				13558D1617D22AA5002D08E0 /* Default.png in Resources */,
+				13558D1817D22AA5002D08E0 /* Default@2x.png in Resources */,
+				13558D1A17D22AA5002D08E0 /* Default-568h@2x.png in Resources */,
+				13558D1D17D22AA5002D08E0 /* MainStoryboard_iPhone.storyboard in Resources */,
+				13558D2017D22AA5002D08E0 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13558D2617D22AA6002D08E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13558D3517D22AA6002D08E0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13558D2717D22AA6002D08E0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13558CFC17D22AA5002D08E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13558D1017D22AA5002D08E0 /* main.m in Sources */,
+				13558D1417D22AA5002D08E0 /* macAppDelegate.m in Sources */,
+				13558D2317D22AA5002D08E0 /* macViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13558D2417D22AA6002D08E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13558D3817D22AA6002D08E0 /* VarExTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13558D2F17D22AA6002D08E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13558CFF17D22AA5002D08E0 /* VarEx */;
+			targetProxy = 13558D2E17D22AA6002D08E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13558D0C17D22AA5002D08E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13558D0D17D22AA5002D08E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		13558D1B17D22AA5002D08E0 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13558D1C17D22AA5002D08E0 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		13558D1E17D22AA5002D08E0 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13558D1F17D22AA5002D08E0 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		13558D3317D22AA6002D08E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13558D3417D22AA6002D08E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13558D3917D22AA6002D08E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13558D3A17D22AA6002D08E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13558D3C17D22AA6002D08E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VarEx/VarEx-Prefix.pch";
+				INFOPLIST_FILE = "VarEx/VarEx-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		13558D3D17D22AA6002D08E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VarEx/VarEx-Prefix.pch";
+				INFOPLIST_FILE = "VarEx/VarEx-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		13558D3F17D22AA6002D08E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VarEx.app/VarEx";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VarEx/VarEx-Prefix.pch";
+				INFOPLIST_FILE = "VarExTests/VarExTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		13558D4017D22AA6002D08E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VarEx.app/VarEx";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VarEx/VarEx-Prefix.pch";
+				INFOPLIST_FILE = "VarExTests/VarExTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13558CFB17D22AA5002D08E0 /* Build configuration list for PBXProject "VarEx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13558D3917D22AA6002D08E0 /* Debug */,
+				13558D3A17D22AA6002D08E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13558D3B17D22AA6002D08E0 /* Build configuration list for PBXNativeTarget "VarEx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13558D3C17D22AA6002D08E0 /* Debug */,
+				13558D3D17D22AA6002D08E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13558D3E17D22AA6002D08E0 /* Build configuration list for PBXNativeTarget "VarExTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13558D3F17D22AA6002D08E0 /* Debug */,
+				13558D4017D22AA6002D08E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13558CF817D22AA5002D08E0 /* Project object */;
+}
