@@ -29,6 +29,11 @@
     
     NSString* text = [NSString stringWithFormat:@"合計=%d", sum];
     self.label.text = text;
+    
+    UILabel* label = [[UILabel alloc] initWithFrame:CGRectMake(0,0,100,30)];
+    label.text = @"text";
+    
+    [self.view addSubview:label];
 }
 
 - (void)didReceiveMemoryWarning
